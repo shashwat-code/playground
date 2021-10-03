@@ -15,6 +15,7 @@ class playCollectionViewCell: UICollectionViewCell {
         label.backgroundColor = .systemGreen
         label.tintColor = .black
         label.text = "shashwat"
+        label.textAlignment = .center
        // label.font.withSize(34)
         return label
     }()
@@ -36,7 +37,7 @@ class playCollectionViewCell: UICollectionViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         image.frame = CGRect(x: 0, y: 0, width: contentView.frame.size.width, height: contentView.frame.size.height-20)
-        label.frame = CGRect(x: 0, y: image.frame.size.height + 5 , width: contentView.frame.size.width, height: 10)
+        label.frame = CGRect(x: 0, y: image.frame.size.height + 5 , width: contentView.frame.size.width, height: 20)
     }
     
     required init?(coder: NSCoder) {
