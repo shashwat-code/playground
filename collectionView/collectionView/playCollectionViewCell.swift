@@ -21,7 +21,7 @@ class playCollectionViewCell: UICollectionViewCell {
     
     var image: UIImageView = {
         let image = UIImageView()
-        image.image = UIImage(systemName: "clock.badge.checkmark")
+        image.image = UIImage(systemName: "clock.badge")
         image.clipsToBounds = true
         return image
     }()
