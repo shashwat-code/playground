@@ -82,6 +82,11 @@ class Book{
 }
 
 var man = Person(book: nil, name: "satish")
+var man1 = Person(book: nil, name: "satish")
+
+var r:String
+r = "nil"
+print(r)
 
      var book = Book(owner: nil, name: "brave")
 
@@ -89,8 +94,8 @@ man.book=book
 book.owner=man
 //book = nil
 
-// closures
-
+let precomposed: Character = "\u{D55C}"                  // 한
+let decomposed:Character = "\u{1112}\u{1161}\u{11AB}"
 
 var er:Book?
 er = Book(owner: nil, name: "ok")
@@ -113,3 +118,9 @@ struct person{
     var phone:Int
     
 }
+
+print(-9%2)
+
+var p1 = Person(book: nil, name: "s")
+var p2 = Person(book: nil, name: "s")
+print(p1 !== p2)
